@@ -26,7 +26,6 @@ export const TownProvider = ({ children }) => {
     }
 
     useEffect(() => {
-        console.log('filter')
         let searchByName = []
         if (searchTerm !== '') {
             searchByName = [...items.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase()))]

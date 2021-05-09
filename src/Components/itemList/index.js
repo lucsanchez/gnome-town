@@ -10,7 +10,6 @@ import { useLoadingProvider } from '../Provider/loadingProvider';
 export const ItemList = () => {
   const { loading } = useLoadingProvider()
   const { filteredItems } = useTownProvider()
-  console.log('rendered')
   const classes = useStyles()
 
   return (
