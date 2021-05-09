@@ -22,10 +22,9 @@ const useStyles = makeStyles(theme => ({
     img: {
         borderRadius: "50%",
         top: "-70px",
-        left: "45%",
+        left: "calc(50% - 60px)",
         width: 100,
         height: 100,
-        marginLeft: "-30px",
         position: 'absolute'
     },
     appBar: {
