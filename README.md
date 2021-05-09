@@ -31,7 +31,7 @@ The **src/Components** folder contains the file **App.js** that it's where every
 Inside the folder src and from top to bottom, you can find the **api** where I fetch the data. The **components** folder with main components (itemList and detail, custom hooks and providers)
 I tried to show differents ways of sharing data through the app and also differnt uses of React hooks and custom hooks
 
-For styling I choose Material UI with makeStyles to add styles to the elements.
+For styling I choose Material UI with makeStyles to add styles to the elements. Web built responsive and mobile first design
 
 
 The project it's only one routing with gnomes lists
