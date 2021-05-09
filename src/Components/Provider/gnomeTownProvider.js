@@ -34,7 +34,7 @@ export const TownProvider = ({ children }) => {
             searchByName = [...items]
         }
         if (professionFilter !== '') {
-            setFilteredItems([searchByName.filter(gnome => gnome.professions && gnome.professions.includes(professionFilter))])
+            setFilteredItems([...searchByName.filter(gnome => gnome.professions && gnome.professions.includes(professionFilter))])
         } else {
             setFilteredItems(searchByName)
         }
