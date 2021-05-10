@@ -16,7 +16,7 @@ const App = () => {
       <LoadingProvider>
           <TownProvider>
             <Switch>
-              <Route exact path="/"><ItemList /></Route>
+              <Route path="/"><ItemList /></Route>
             </Switch>
           </TownProvider>
       </LoadingProvider>
